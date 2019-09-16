@@ -1,7 +1,7 @@
 #!/bin/bash
 
 VERSION=1.1.1c
-export ANDROID_NDK_HOME=~/android/ndk-bundle
+export ANDROID_NDK_HOME=~/Android/Sdk/ndk-bundle
 ANDROID_API=21
 
 if [ ! -f "openssl-$VERSION.tar.gz" ]; then
