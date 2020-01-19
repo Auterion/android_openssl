@@ -1,7 +1,7 @@
 equals(ANDROID_TARGET_ARCH,armeabi-v7a) {
     ANDROID_EXTRA_LIBS += \
-        $$PWD/arm/libcrypto.so \
-        $$PWD/arm/libssl.so
+        $$PWD/arm/libcrypto_1_1.so \
+        $$PWD/arm/libssl_1_1.so
 }
 
 equals(ANDROID_TARGET_ARCH,arm64-v8a) {
